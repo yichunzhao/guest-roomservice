@@ -10,5 +10,4 @@ public interface RoomRepository extends CrudRepository<Room, Long> {
     List<Room> findByRoomNumIgnoreCase(String roomNum);
 
     List<Room> findByNameIgnoreCase(String name);
-
 }
